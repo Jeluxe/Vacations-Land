@@ -1,0 +1,35 @@
+.background {
+    /* The image used */
+    background-image: url(236418625.jpg);
+
+    /* Full height */
+    min-height: 100% !important;
+
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    content: "✔";
+    float:left;
+  }
+  
+  /* Add a red text color and an "x" when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    content: "✖";
+    float:left;
+  }
